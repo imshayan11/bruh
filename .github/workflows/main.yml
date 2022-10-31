@@ -28,4 +28,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploy website on surge
-        run: surge ./ massive-heat.surge.sh --token ${{secrets.MY_SECRET_SHAYAN}}
+        run: surge ./ level-truck.surge.sh --token ${{secrets.MY_SECRET_SHAYAN}}
