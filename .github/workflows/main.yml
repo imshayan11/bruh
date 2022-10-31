@@ -28,4 +28,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploy website on surge
-        run: surge ./ diligent-moon.surge.sh --token ${{ secrets.MY_SECRET_SHAYAN }}
+        run: surge ./ wooden-lunch.surge.sh --token ${{ secrets.MY_SECRET_SHAYAN }}
